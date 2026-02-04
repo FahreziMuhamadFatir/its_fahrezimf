@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio Website - Fahrezi</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Fahrezi </a>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#hobby">Hobby</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="mypic.png" alt="">
+        </div>
+        <div class="home-content">
+            <h1>Hi, It's <span>Ezi</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I am a dedicated Software Developer with specialized experience in designing and building track-and-trace applications for regulated industries. My work focuses on end-to-end product traceability — from packaging, warehousing, and distribution to final consumption and verification by BPOM.</p>
+            <p>I have hands-on expertise in developing desktop applications using C# and .NET, implementing serialization and multi-level aggregation (vial → carton → basket → pallet) based on Data Matrix standards. I enjoy turning highly manual processes into efficient, reliable, and automated systems that reduce errors and improve operational visibility.</p>
+            <p>I thrive in environments where technology directly solves real business problems. My goal is to keep building solutions that simplify workflows, strengthen compliance, and bring measurable improvements to complex supply-chain operations.</p>
+            <div class="social-icons">
+                <!-- <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a> -->
+            </div>
+            <a href="https://www.linkedin.com/in/fahrezi-muhamad-fatir-6b8783387" class="btn">Find Me</a>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-container">
+            <div class="skill-box">
+                <i class="fa-brands fa-microsoft"></i>
+                <h3>.NET Development</h3>
+                <p>Expert in C# and .NET Framework for building robust desktop applications with focus on enterprise solutions</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-barcode"></i>
+                <h3>Track & Trace Systems</h3>
+                <p>Specialized in implementing serialization and aggregation systems for pharmaceutical compliance</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-database"></i>
+                <h3>Database Management</h3>
+                <p>Proficient in SQL Server, database design, and optimization for high-volume transaction systems</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Software Architecture</h3>
+                <p>Experience in designing scalable solutions following best practices and design patterns</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-boxes-stacked"></i>
+                <h3>Supply Chain Solutions</h3>
+                <p>Deep understanding of warehouse management and distribution workflow automation</p>
+            </div>
+            <div class="skill-box">
+                <i class="fa-solid fa-shield-halved"></i>
+                <h3>Compliance & Validation</h3>
+                <p>Knowledge of BPOM regulations and GxP compliance in pharmaceutical manufacturing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fa-solid fa-pills"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Pharmaceutical Track & Trace System</h3>
+                    <p class="project-tech">C# • .NET • SQL Server</p>
+                    <p>Desktop application for BPOM compliance implementing end-to-end serialization and multi-level aggregation from vial to pallet level with Data Matrix barcode integration.</p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-check"></i> Real-time tracking</span>
+                        <span><i class="fa-solid fa-check"></i> Multi-level aggregation</span>
+                        <span><i class="fa-solid fa-check"></i> BPOM compliance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fa-solid fa-warehouse"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Warehouse Management System</h3>
+                    <p class="project-tech">C# • Java • PHP • SQL Server</p>
+                    <p>Integrated warehouse management solution for inventory control, distribution tracking, and automated workflow management reducing manual errors significantly.</p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-check"></i> Inventory tracking</span>
+                        <span><i class="fa-solid fa-check"></i> Distribution management</span>
+                        <span><i class="fa-solid fa-check"></i> Automated reporting</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                <i class="fa-solid fa-syringe"></i>
+            </div>
+                <div class="project-info">
+                    <h3>ROTA4 – Vaccine Serialization & Validation System</h3>
+                    <p class="project-tech">C# • .NET • SQL Server • PLC • Industrial Printer • Camera Integration</p>
+                    <p>
+                        Vaccine serialization and validation system designed to ensure product authenticity and traceability
+                        in the manufacturing process. Integrated with industrial printers for label printing, camera capture
+                        for visual verification, and PLC for real-time data validation.
+                    </p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-check"></i> Vaccine serialization</span>
+                        <span><i class="fa-solid fa-check"></i> Label printing integration</span>
+                        <span><i class="fa-solid fa-check"></i> Camera & PLC validation</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                <i class="fa-solid fa-futbol"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Sportinasia – Football Academy Management App</h3>
+                    <p class="project-tech">Node.js • REST API • Java • Mobile App Integration</p>
+                    <p>
+                        Mobile application for managing football academy students, allowing parents to monitor their
+                        children’s performance while coaches manage players and analyze training statistics.
+                        Responsible for backend development and API integration for the mobile application.
+                    </p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-check"></i> Player performance tracking</span>
+                        <span><i class="fa-solid fa-check"></i> Coach & parent dashboards</span>
+                        <span><i class="fa-solid fa-check"></i> RESTful API services</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fa-solid fa-gamepad"></i>
+                </div>
+                <div class="project-info">
+                    <h3>GUPAI – Educational Game for Children</h3>
+                    <p class="project-tech">Unity • C# • Game Development</p>
+                    <p>
+                        Interactive educational game designed for elementary school children to learn alphabets,
+                        basic arithmetic, and recognize various fruits through engaging visuals and gameplay.
+                    </p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-check"></i> Alphabet learning</span>
+                        <span><i class="fa-solid fa-check"></i> Basic math exercises</span>
+                        <span><i class="fa-solid fa-check"></i> Interactive learning experience</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fa-solid fa-city"></i>
+                </div>
+                <div class="project-info">
+                    <h3>MONITA – Transportation Monitoring Application</h3>
+                    <p class="project-tech">Figma • PHP • Frontend Development</p>
+                    <p>
+                        Government transportation monitoring application used by the Department of Transportation
+                        to track vehicle data entering and leaving the city of Bandung.
+                        Contributed as UI/UX designer and frontend developer.
+                    </p>
+                    <div class="project-features">
+                        <span><i class="fa-solid fa-check"></i> Vehicle traffic monitoring</span>
+                        <span><i class="fa-solid fa-check"></i> UI/UX design implementation</span>
+                        <span><i class="fa-solid fa-check"></i> Dashboard-based interface</span>
+                    </div>
+            </div>
+</div>
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <h2 class="heading">My <span>Education</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2023 - 2027</div>
+                <div class="timeline-content">
+                    <h3>University Langlangbuana</h3>
+                    <p>Bachelor's Degree in Informatics Engineering</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2018 - 2021</div>
+                <div class="timeline-content">
+                    <h3>SMK Negeri 2 Bandung – Vocational High School</h3>
+                    <p>Major in Software Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <h2 class="heading">Work <span>Experience</span></h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2024 - Present</div>
+                <div class="timeline-content">
+                    <h3>Software Developer</h3>
+                    <p>MGI ASPAC</p>
+                    <p>• Developed track-and-trace desktop applications for BPOM compliance</p>
+                    <p>• Implemented multi-level aggregation systems (vial to pallet)</p>
+                    <p>• Automated manual workflows reducing errors by 95%</p>
+                    <p>• Integrated with warehouse management and distribution systems</p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">2021 - 2024</div>
+                <div class="timeline-content">
+                    <h3>Junior Programmer</h3>
+                    <p>MGI ASPAC</p>
+                    <p>• Built desktop applications using C# and WPF</p>
+                    <p>• Worked on database design and optimization</p>
+                    <p>• Collaborated with teams on enterprise solutions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobby Section -->
+    <section class="hobby" id="hobby">
+        <h2 class="heading">My <span>Hobbies</span></h2>
+        <div class="hobby-container">
+            <div class="hobby-box">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Coding Side Projects</h3>
+                <p>Building personal projects to explore new technologies and frameworks</p>
+            </div>
+            <div class="hobby-box">
+                <i class="fa-solid fa-book"></i>
+                <h3>Reading Self Development Books</h3>
+                <p>Learning from books about mindset, productivity, and software development</p>
+            </div>
+            <div class="hobby-box">
+                <i class="fa-solid fa-paintbrush"></i>
+                <h3>Drawing</h3>
+                <p>Creating digital illustrations and visual concepts to sharpen creativity</p>
+            </div>
+            <div class="hobby-box">
+                <i class="fa-solid fa-dumbbell"></i>
+                <h3>Fitness</h3>
+                <p>Maintaining work-life balance through regular exercise and outdoor activities</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form class="contact-form" id="contactForm">
+            <div class="input-box">
+                <input type="text" id="fullName" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="text" id="phone" placeholder="Phone Number">
+                <input type="text" id="subject" placeholder="Subject">
+            </div>
+            <textarea id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send via WhatsApp" class="btn">
+        </form>
+        <div class="contact-info">
+            <p style="text-align: center; margin-top: 3rem; font-size: 1.6rem;">Or reach me directly:</p>
+            <div class="contact-links">
+                <a href="https://wa.me/6281222628052" class="contact-link">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <span>WhatsApp</span>
+                </a>
+                <a href="/cdn-cgi/l/email-protection#4620272e34233c2f2b332e272b2722757606212b272f2a6825292b" class="contact-link">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://www.linkedin.com/in/fahrezi-muhamad-fatir-6b8783387" class="contact-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by Fahrezi | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <
